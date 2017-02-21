@@ -1,131 +1,189 @@
-body {
-	height: 2000px;
-	font-family: 'PT Sans', boild, sans-serif;
+body
+{
+    font-family: 'PT Sans', boild, sans-serif;
+
+    height: 2000px;
 }
-h1 {
-	padding-top: 15px;
-	font-size: 24px;
+h1
+{
+    font-size: 24px;
+
+    padding-top: 15px;
 }
-h2 {
-	font-size: 18px;
-	padding-top: 28px;
-	margin-bottom: 0px;
+h2
+{
+    font-size: 18px;
+
+    margin-bottom: 0;
+    padding-top: 28px;
 }
-.containers {
-	margin: 200px auto;
-	width: 520px;
-	position: relative; /*Положение элемента устанавливается относительно его исходного места*/
+.containers
+{
+    position: relative; /*Положение элемента устанавливается относительно его исходного места*/
+
+    width: 520px;
+    margin: 200px auto;
 }
-.container-1, .container-2, .container-3 {
-	width: 520px;
-	height: 747px;
-	border: 2px solid black;
-	position: absolute; /*положение влияет значение свойства position родительского элемента*/
+.container-1,
+.container-2,
+.container-3
+{
+    position: absolute; /*положение влияет значение свойства position родительского элемента*/
+
+    width: 520px;
+    height: 747px;
+
+    border: 2px solid black;
 }
-.container-1 {
-	background-color: #ebebeb;
-	z-index: 9;
+.container-1
+{
+    z-index: 9;
+
+    background-color: #ebebeb;
 }
-.container-2 {
-	background-color: #cccccc;
-	left: 20px;
-	top: 20px;
-	z-index: 7;
+.container-2
+{
+    z-index: 7;
+    top: 20px;
+    left: 20px;
+
+    background-color: #ccc;
 }
-.container-3 {
-	background-color: #acacac;
-	left: 40px;
-	top: 40px;
-	z-index: 5;
+.container-3
+{
+    z-index: 5;
+    top: 40px;
+    left: 40px;
+
+    background-color: #acacac;
 }
-.bookmark-1, .bookmark-2, .bookmark-3 {
-	border: 2px solid black;
-	border-radius: 0 10px 10px 0;
-	position: absolute;
-	left: 490px;
-	width: 110px;
-	height: 35px;
+.bookmark-1,
+.bookmark-2,
+.bookmark-3
+{
+    position: absolute;
+    left: 490px;
+
+    width: 110px;
+    height: 35px;
+
+    border: 2px solid black;
+    border-radius: 0 10px 10px 0;
 }
-.bookmark-1 {
-	background-color: #f68e56;
-	z-index: 10;
-	margin-top: 39px;
+.bookmark-1
+{
+    z-index: 10;
+
+    margin-top: 39px;
+
+    background-color: #f68e56;
 }
-.bookmark-2 {
-	background-color: #39b54a;
-	margin-top: 44px;
-	margin-left: -35px;
-	z-index: 8;
+.bookmark-2
+{
+    z-index: 8;
+
+    margin-top: 44px;
+    margin-left: -35px;
+
+    background-color: #39b54a;
 }
-.bookmark-3 {
-	background-color: #00aeef;
-	margin-top: 48px;
-	z-index: 6;
-	margin-left: -68px;
+.bookmark-3
+{
+    z-index: 6;
+
+    margin-top: 48px;
+    margin-left: -68px;
+
+    background-color: #00aeef;
 }
-.test p, h1, h2 {
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: left;
-	font-weight: normal;
+.test p,
+h1,
+h2
+{
+    font-weight: normal;
+
+    padding-right: 30px;
+    padding-left: 30px;
+
+    text-align: left;
 }
-.test p {
-	font-size: 12px;
-	margin-top: -5px;
+.test p
+{
+    font-size: 12px;
+
+    margin-top: -5px;
 }
-.test img {
-	display: block;
+.test img
+{
+    display: block;
 }
-.images {
-	padding-bottom: 5px;
-	height: 210px;
+.images
+{
+    height: 210px;
+    padding-bottom: 5px;
 }
-.images img {
-	width: 195px;
-	height: 90px;
-	float: left;
-	padding-left: 30px;
-	padding-right: 35px;
-	padding-top: 15px;
+.images img
+{
+    float: left;
+
+    width: 195px;
+    height: 90px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-left: 30px;
 }
-.css-is-awesome {
-	float: left;
-	height: 111px;
-	width: 207px;
-	padding-left: 30px;
-	padding-bottom: 10px;
-	margin: 0 22px 0 0;
+.css-is-awesome
+{
+    float: left;
+
+    width: 207px;
+    height: 111px;
+    margin: 0 22px 0 0;
+    padding-bottom: 10px;
+    padding-left: 30px;
 }
-.CSS-to-HTML {
-	float: right;
-	height: 143px;
-	width: 143px;
-	padding-right: 30px;
+.CSS-to-HTML
+{
+    float: right;
+
+    width: 143px;
+    height: 143px;
+    padding-right: 30px;
 }
-.footer p {
-	font-size: 11px;
-	text-align: center;
-	width: 85%;
-	padding-top: 15px;
+.footer p
+{
+    font-size: 11px;
+
+    width: 85%;
+    padding-top: 15px;
+
+    text-align: center;
 }
-.media {
-	width: 88px;
-	height: 68px;
-	background-color: #fbaf5d;
-	border: 2px solid black;
-	z-index: 10;
-	position: fixed; /* Фиксированное положение */
-	right: 10px;
-	top: 90%;
+.media
+{
+    position: fixed; /* Фиксированное положение */
+    z-index: 10;
+    top: 90%;
+    right: 10px;
+
+    width: 88px;
+    height: 68px;
+
+    border: 2px solid black;
+    background-color: #fbaf5d;
 }
-.media p {
-	margin: 4px;
-	font-size: 16px;
-	text-align: center;
+.media p
+{
+    font-size: 16px;
+
+    margin: 4px;
+
+    text-align: center;
 }
-.media img {
-	padding-left: 7px;
-	padding-top: 4px;
-	height: 20px;
-	width: 20px;
+.media img
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+    padding-left: 7px;
 }
